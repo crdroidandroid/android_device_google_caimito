@@ -448,3 +448,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.powerhal.apf_disabled=false \
     vendor.powerhal.apf_enabled=true
+
+PRODUCT_PACKAGES += fir-proximity-feature.xml
