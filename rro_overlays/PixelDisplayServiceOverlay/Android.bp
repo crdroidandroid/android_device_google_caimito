@@ -1,0 +1,7 @@
+runtime_resource_overlay {
+    name: "PixelDisplayServiceOverlay",
+    theme: "PixelDisplayServiceOverlay",
+    certificate: "platform",
+    sdk_version: "current",
+    system_ext_specific: true
+}
