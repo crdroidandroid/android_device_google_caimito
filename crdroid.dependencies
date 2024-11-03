@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "crdroidandroid/android_device_google_zumapro",
+    "target_path": "device/google/zumapro"
+  },
+  {
+    "repository": "LineageOS/android_device_google_caimito-kernels",
+    "target_path": "device/google/caimito-kernels",
+    "branch": "lineage-24.0"
+  }
+]
