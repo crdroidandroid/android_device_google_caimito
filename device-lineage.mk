@@ -28,6 +28,9 @@ include hardware/google/pixel/powershare/device.mk
 PRODUCT_PACKAGES += \
     PixelDisplayServiceOverlay
 
+# Pixel Parts
+$(call inherit-product-if-exists, packages/apps/PixelParts/device.mk)
+
 # Satellite
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/conf/allowlist_satellite.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_satellite.xml
