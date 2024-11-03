@@ -1,0 +1,21 @@
+[
+  {
+    "repository": "crdroidandroid/android_device_google_zumapro",
+    "target_path": "device/google/zumapro"
+  },
+  {
+    "repository": "crdroidandroid/android_packages_apps_PixelParts",
+    "target_path": "packages/apps/PixelParts"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_google_camera",
+    "target_path": "vendor/google/camera",
+    "remote": "crdroid-gitlab"
+  },
+  {
+    "repository": "device/google/caimito-kernels/6.1",
+    "target_path": "device/google/caimito-kernels/6.1",
+    "remote": "aosp-caimito",
+    "branch": "refs/tags/android-15.0.0_r10"
+  }
+]
