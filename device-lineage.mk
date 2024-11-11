@@ -21,6 +21,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
+# Fingerprint
+TARGET_HAS_UDFPS := true
+
 # IWLAN
 PRODUCT_PACKAGES += \
     Iwlan
