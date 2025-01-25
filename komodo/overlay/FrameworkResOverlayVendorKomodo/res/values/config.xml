@@ -52,7 +52,7 @@
          appearance of the cutout as much as possible, and may be smaller than
          config_mainBuiltInDisplayCutout
          -->
-    <string name="config_mainBuiltInDisplayCutoutRectApproximation" translatable="false">m 614.53715,0 h 115 v 199 h -115 z @left</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation" translatable="false">m 614.53715,0 h 115 v 158.5 h -115 z @left</string>
 
     <!-- The stable device width and height in pixels. If these aren't set to a positive number
          then the device will use the width and height of the default display the first time it's
