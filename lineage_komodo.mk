@@ -27,7 +27,7 @@ TARGET_SCREEN_WIDTH := 1344
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="komodo-user 16 BP3A.251005.004.B1 14042072 release-keys" \
-    BuildFingerprint=google/komodo/komodo:16/BP3A.251005.004.B1 14042072:user/release-keys \
+    BuildFingerprint=google/komodo/komodo:16/BP3A.251005.004.B1/14042072:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
